@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    color: white;
+    color: #ffffff;
 }
 body{
     background-color: #b8e2c8;
@@ -131,6 +131,7 @@ hr{
     /* background-color: gray; */
     margin-left: 15%;
     padding: 20px 30px;
+    margin: 150px auto;
 }
 .about-box h1{
     margin-bottom: 5%;
@@ -320,6 +321,25 @@ hr{
 }
 
 
+/* ----hobby---- */
+.hobby{
+    width: 100%;
+    height: 110vh;
+}
+i{
+    text-align: center;
+    font-size: medium;
+}
+.photo img{
+    object-fit: cover;
+    margin-left: 25%;
+    box-sizing: border-box;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    border: 2px solid whitesmoke;
+    border-radius: 10%;
+}
 /* ------ contact ---- */
 .contact{
     margin: 20px 10%;
